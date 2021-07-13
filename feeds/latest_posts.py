@@ -2,7 +2,7 @@ from django.contrib.syndication.views import Feed
 from django.urls import reverse
 from blogging.models import Post
 
-class LatestEntriesFeed(Feed):
+class LatestPostsFeed(Feed):
     title = "My Blog Posts"
     link = "/"
     description = "Latest posts from my blog."
